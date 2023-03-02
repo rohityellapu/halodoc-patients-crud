@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import EditPatient from './EditPatient'
 import axios from 'axios';
 
-const apiURL = "http://localhost:10000/patient";
+const apiURL = "https://todo-api-d05y.onrender.com/patient";
 function Patient({ event, reload }) {
     const [isLoading, setisLoading] = useState(false)
     async function handleDelete() {

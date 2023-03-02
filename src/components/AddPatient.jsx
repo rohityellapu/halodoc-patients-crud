@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useForm } from "react-hook-form";
 import axios from 'axios';
 import Popup from 'reactjs-popup';
-const apiURL = "http://localhost:10000/patient";
+const apiURL = "https://todo-api-d05y.onrender.com/patient";
 
 function AddPatient({ reload }) {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();

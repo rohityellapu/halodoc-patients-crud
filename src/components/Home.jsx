@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Patient from './Patient';
 import AddPatient from './AddPatient';
-const apiURL = "http://localhost:10000/patient";
+const apiURL = "https://todo-api-d05y.onrender.com/patient";
 
 function Home() {
     const [patients, setPatients] = useState([]);
